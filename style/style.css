@@ -337,11 +337,55 @@ table{
     border-radius: 18px;
     width: 1060px;
     height: 604px;
+    padding-top: 30px;
 }
 
 .team-image{
     width: 327px;
     height: 272px;
     border-radius: 18px;
+    padding: 6px;
+}
+/* footer */
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.footer-paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    width: 443px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-get-menu{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+div ul li {
+    margin-left: -32px;
+    padding-bottom: 8px;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.copyright {
+    margin: auto;
+    border-top: 1px solid #888888;
+    width: 1148px;
+    margin-top: 50px;
+}
+.copyright p{
+    text-align: center;
+    color: #888888;
 }
