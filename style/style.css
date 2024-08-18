@@ -43,6 +43,11 @@ font-size: 36px;
 font-weight: 800;
 }
 
+.nav-elements{
+    width: 395px;
+    height: 66px;
+}
+
 .nav-element{
     display: flex;
     gap: 47px;
@@ -55,6 +60,7 @@ font-weight: 800;
     font-family: Inter;
     padding: 4px;
     align-items: center;
+    padding-left: 36px;
   
 }
 
@@ -64,7 +70,6 @@ font-weight: 800;
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px 8px 20px;
-
 }
 .head{
     display:flex;
@@ -417,6 +422,8 @@ div ul li {
     color: #888888;
 }
 
+
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
@@ -556,6 +563,10 @@ div ul li {
     font-size: 16px;
    }
 
+   .calculate-your-bmi{
+    margin: 43px 20px;
+   }
+
    .bmi-calculator-chart{
     margin: 23px 64px 0px 20px;
    }
@@ -588,39 +599,78 @@ div ul li {
     margin-top: 34px;
    }
 
-   /* team */
-   .team{
-    margin: 0px;
-   }
-   .team-title{
-    width: 243px;
-    height: 38px;
-    font-size: 32px;
-    padding: 0px 33px;
-   }
+      /* team */
+      .team{
+        margin: 0px;
+       }
 
-   .team-head{
-    margin-left: 22px;
-    height: 124px;
-    width: 309px;
-    margin-bottom: 20px;
-   }
+       .team-title{
+        width: 243px;
+        height: 38px;
+        font-size: 32px;
+        padding: 0px 33px;
+       }
+    
+       .team-head{
+        margin-left: 22px;
+        height: 124px;
+        width: 309px;
+        margin-bottom: 20px;
+       }
+    
+       .team-images{
+        width: 353px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+       }
+    
+       .team-image{
+        margin: 4px 8px;
+       }
+    
+    
+        /* footer */
+    
+       footer{
+        margin-top: 1100px;
+       }
+       .footer{
+        margin-left: 20px;
+       }
 
-   .team-images{
-    width: 353px;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 20px;
-   }
+       .footer-title{
+        font-size: 70px;
+        width: 256px;
+        height: 84px;
+        margin-top: 44px;
+        margin-bottom: 20px;
+       }
 
-   .team-image{
-    margin: 4px 8px;
-   }
+       .footer-paragraph{
+        font-size: 14px;
+        width: 317px;
+        height: 96px;
+       }
+
+       .get-menu{
+        margin-top: 30px;
+       }
 
 
-    /* footer */
+       .footer-content{
+        flex-direction: column;
+       }
 
-   .footer{
-    position: fixed;
-   }
+       .copyright{
+        margin-left:20px;
+        width: 280px;
+       }
+
+       .all-right{
+        width: 318px;
+        height: 24px;
+        margin-left: -60px;
+       }
+      
 }
